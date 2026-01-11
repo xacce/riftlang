@@ -1,3 +1,4 @@
 {
-  "name": "Rift"
+  "name": "com.xacce.rift",
+  "allowUnsafeCode": true
 }
