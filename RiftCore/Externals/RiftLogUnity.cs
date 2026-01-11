@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Debug = UnityEngine.Debug;
 
-namespace RiftCore
+namespace Rift
 {
 	public static class RiftLog
 	{
