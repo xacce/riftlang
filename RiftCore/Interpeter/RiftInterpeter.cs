@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 #if UNITY_2020_1_OR_NEWER
-using RiftCore.Externals.Unity;
-using Unity.Entities;
 using Unity.Collections.LowLevel.Unsafe;
 #endif
 

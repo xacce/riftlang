@@ -1,7 +1,10 @@
 {
   "name": "com.xacce.rift",
   "rootNamespace": "",
-  "references": [],
+  "references": [
+    "Unity.Mathematics",
+    "Unity.Collections"
+  ],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": true,
