@@ -1,0 +1,3 @@
+﻿-Ctrl-Alt-s (settings)
+-TextMate bundles
+-+ (add) выбери папку ../vscode/rift

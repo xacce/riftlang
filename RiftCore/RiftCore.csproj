@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <RootNamespace>ConsoleApp2</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Superpower" Version="3.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="EditorGrammar\vscode\rift\.vscode\launch.json" />
+    </ItemGroup>
+
+</Project>

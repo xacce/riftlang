@@ -1,0 +1,11 @@
+﻿{
+  "name": "rift",
+  "version": "0.0.01",
+  "displayName": "Rift",
+  "description": "Create rift for burst hole",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "author": {
+    "name": "xacce"
+  }
+}

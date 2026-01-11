@@ -1,0 +1,26 @@
+﻿'name': 'RiftLang'
+'scopeName': 'source.rift'
+'fileTypes': ['rift']
+
+'patterns': [
+  {
+    'name': 'keyword.control.rift'
+    'match': '\\b(input|settings|print|if|stop|update|fetch|elif|or|and|from)\\b'
+  }
+  {
+    'name': 'storage.type.rift'
+    'match': '\\b(int|bool|float|CharacterData|Entity|TestComponent1)\\b'
+  }
+  {
+    'name': 'constant.numeric.rift'
+    'match': '\\b\\d+(\\.\\d+)?\\b'
+  }
+  {
+    'name': 'variable.other.rift'
+    'match': '\\b[a-zA-Z_][a-zA-Z0-9_]*(\\.[a-zA-Z_][a-zA-Z0-9_]*)*\\b'
+  }
+  {
+    'name': 'keyword.operator.rift'
+    'match': '==|=|\\.'
+  }
+]

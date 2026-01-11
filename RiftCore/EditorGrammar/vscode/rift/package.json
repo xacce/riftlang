@@ -1,0 +1,34 @@
+{
+  "name": "rift",
+  "displayName": "rift",
+  "description": "",
+  "version": "0.0.4",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "rift",
+        "aliases": [
+          "Rift",
+          "rift"
+        ],
+        "extensions": [
+          ".rift"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "rift",
+        "scopeName": "source.rift",
+        "path": "./syntaxes/rift.tmLanguage.json"
+      }
+    ]
+  }
+}
