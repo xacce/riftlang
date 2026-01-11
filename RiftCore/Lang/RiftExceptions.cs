@@ -1,4 +1,5 @@
 ﻿using Superpower.Model;
+using System;
 
 namespace Rift
 {
