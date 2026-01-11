@@ -1,4 +1,6 @@
-﻿namespace Rift
+﻿using System;
+
+namespace Rift
 {
 	public interface IRiftMem : IDisposable
 	{
